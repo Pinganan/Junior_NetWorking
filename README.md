@@ -1,8 +1,5 @@
-# Junior_NetWorking
 
-
-
-## Unit 1-Introduction
+# Unit 1-Introduction
    Wireshark補捉SimpleServer.class / SimpleClient.class執行過程所傳送的封包，寫下Client與Server之間傳送的所有封包
 
             請問 Server 所開的 Port number 為？
@@ -13,7 +10,7 @@
             那些封包為 Server 送訊息給 Client 及 Client 回應收到訊息的封包?
             那些封包為 TCP 連線結束的封包？
             
-## Unit 2-Stream and Client Server Model
+# Unit 2-Stream and Client Server Model
    撰寫一個 Client 及 Server 程式達成以下的功能
 
             Server 執行後會等待 Client 傳來訊息
@@ -23,7 +20,7 @@
             當收到 0 這一個數的一方結束連線
             Server/Client 需印出過程中所收到整數的值
             
-## Unit 3-Application based on TCP
+# Unit 3-Application based on TCP
    修改範例 SimpleMailClient.java，寫一個 Mail Client達成以下的功能
    
             秀出 mailbox 中有幾封 mail
@@ -31,7 +28,7 @@
             列出信箱中每一封 mail 的寄信時間、信件主題、寄件人、收件人
             列出第 nn 封信的內容 (如信件已編碼需解碼)
             
-## Unit 4-Concurrent Processes
+# Unit 4-Concurrent Processes
    修改 [__Lab 2__](https://github.com/Pinganan/Junior_NetWorking/blob/main/README.md#unit-2-stream-and-client-server-model) 的 Server 程式，當 Server 收到 Client 的連線建立訊息後即產生一個新的 thread 與 Client 繼續溝通
    
             Server 執行後會等待 Client 傳來訊息
@@ -41,7 +38,7 @@
             當收到 0 這一個數的一方結束連線
             Server/Client 需印出過程中所收到整數的值
 
-## Unit 5 - UDP
+# Unit 5 - UDP
 
    ### week1
    
@@ -61,7 +58,7 @@
    
             解決 UDP 封包在傳送過程中會遺失的問題，SAWSocket.java 實作了 Stop-and-wait 的 Flow control 機制。但我們知道 Stop-and wait 的效率不佳，所以請修改 SAWSocket.java 及UDPServer3.java 程式，讓我們可以從 UDPServer3 的命令列參數中填入 Sliding windows 的值 w，讓送方可以連續送出 w 個封包，收方才回一個 ACK。請注意，收方仍要有 timeout 的機制以解決送方沒有送滿w 個封包，而收方一直不回 ACK 的問題。
             
-## Unit 6-Remote Method Invocation
+# Unit 6-Remote Method Invocation
    
    ### week1 & week2
    
@@ -85,7 +82,7 @@
                   請自行定義一個 Error 回傳值，當所要求的資訊不存在時回傳 Error
                   你的程式請分成 Interface, RMI Service Implementation, Server Program 與 Client Program 等四個檔案
 
-## Unit 7-Secure Socket
+# Unit 7-Secure Socket
    [__Lab 2__](https://github.com/Pinganan/Junior_NetWorking/blob/main/README.md#unit-2-stream-and-client-server-model) 的 Client/Server 程式，讓 Client 與 Server 之間的傳輸訊息使用 SSL 加密傳輸
 
                   Server 執行後會等待 Client 傳來訊息
@@ -95,7 +92,7 @@
                   當收到 0 這一個數的一方結束連線
                   Server/Client 需印出過程中所收到整數的值
 
-## Unit 8 - Non-blocking socket
+# Unit 8 - Non-blocking socket
    - 設計一個 Server 及兩個 Clients  (Producer 與 Consumer)
    
       - Server
@@ -111,7 +108,7 @@
       
                執行後會發出一個要求到 Server 的 8881 port，等待接收Server 所回傳的整數並顯示出來。如果Queue 中沒有資料， Consumer 在等待時會每隔2秒秀出一個”資料等待中”的訊息
           
-## Unit 9-Multicast
+# Unit 9-Multicast
 
    - multicast server S會不斷的送出 multicast 訊息，當 multicast client C 加入群組後即可接收到 S 所送出的訊息
       
@@ -124,7 +121,7 @@
                程式執行時 BS 會扮演TCP Client 的角色，從BR 中接收訊息
                BS 同時建立另一 multicast group，將從 BR 所接收到的訊息送到這一 multicast group，如此 multicast client C 加入這一 multicast 後就可以收到從 S 送出的訊息。
 
-## Unit 10-Network Programming Using Python
+# Unit 10-Network Programming Using Python
    請用 Python 改寫 Lab 8 的作業。
 
-## Unit11-Network Applications
+# Unit11-Network Applications
