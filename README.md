@@ -2,7 +2,7 @@
 
 ## Unit 1-Introduction
 
-      Wireshark補捉SimpleServer.class / SimpleClient.class執行過程所傳送的封包，寫下Client與Server之間傳送的所有封包
+   Wireshark補捉SimpleServer.class / SimpleClient.class執行過程所傳送的封包，寫下Client與Server之間傳送的所有封包
 
             請問 Server 所開的 Port number 為？
             請問 Client 所使用的 Port number 為？
@@ -13,7 +13,7 @@
             那些封包為 TCP 連線結束的封包？
 ## Unit 2-Stream and Client Server Model
 
-      撰寫一個 Client 及 Server 程式
+   撰寫一個 Client 及 Server 程式
 
             Server 執行後會等待 Client 傳來訊息
             Client從命令列輸入一個大於0 的整數並將這一個整數減一傳給 Server 發起訊息傳送的動作
