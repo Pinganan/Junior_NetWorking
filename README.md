@@ -45,7 +45,7 @@
 
    ### week1
    
-      Wireshark 封包補捉軟體，補捉 UDPClient1 / UDPServer1 這一個範例的執行過程所傳送的封包。寫下 Client 與 Server 之間傳送的所有封包
+   Wireshark 封包補捉軟體，補捉 UDPClient1 / UDPServer1 這一個範例的執行過程所傳送的封包。寫下 Client 與 Server 之間傳送的所有封包
 
                是否有連線建立的封包?
                那些封包為 Client 送訊息給 Server的封包
