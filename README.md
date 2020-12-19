@@ -30,7 +30,7 @@
             列出第 nn 封信的內容 (如信件已編碼需解碼)
             
 ## Unit 4-Concurrent Processes
-   修改 *Lab 2* 的 Server 程式，當 Server 收到 Client 的連線建立訊息後即產生一個新的 thread 與 Client 繼續溝通
+   修改 __Lab 2__ 的 Server 程式，當 Server 收到 Client 的連線建立訊息後即產生一個新的 thread 與 Client 繼續溝通
    
             Server 執行後會等待 Client 傳來訊息
             Client 從命令列輸入一個大於0 的整數並將這一個整數減一傳給 Server 發起訊息傳送的動作
