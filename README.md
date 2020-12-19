@@ -65,7 +65,7 @@
    
    ### week1 & week2
    
-   這一份作業請大家以 Java RMI 撰寫一個討論區。這一個討論區的運作分為 Client 端與 Server 端程式，其主要功能如下：
+   - 這一份作業請大家以 Java RMI 撰寫一個討論區。這一個討論區的運作分為 Client 端與 Server 端程式，其主要功能如下：
 
       - 使用者註冊：每一個使用者要新增討論主題或回覆前皆需先申請一帳號，所有的討論主題及回覆內容都會顯示使用者名稱。
       
@@ -84,3 +84,13 @@
                   Server 端接收到討論主題或回覆時需同時儲存日期及時間
                   請自行定義一個 Error 回傳值，當所要求的資訊不存在時回傳 Error
                   你的程式請分成 Interface, RMI Service Implementation, Server Program 與 Client Program 等四個檔案
+
+## Unit 7-Secure Socket
+     [__Lab 2__](https://github.com/Pinganan/Junior_NetWorking/blob/main/README.md#unit-2-stream-and-client-server-model) 的 Client/Server 程式，讓 Client 與 Server 之間的傳輸訊息使用 SSL 加密傳輸
+
+                  Server 執行後會等待 Client 傳來訊息
+                  Client 從命令列輸入一個大於0 的整數並將這一個整數減一傳給 Server 發起訊息傳送的動作
+                  Server/Client 收到對方所傳來的整數後，將收到的數值減一並回傳給對方
+                  雙方重覆執行動作(3)直到收到的數值為 0
+                  當收到 0 這一個數的一方結束連線
+                  Server/Client 需印出過程中所收到整數的值
