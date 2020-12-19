@@ -1,6 +1,7 @@
 # Junior_NetWorking
 
 ## Unit 1-Introduction
+
       Wireshark補捉SimpleServer.class / SimpleClient.class執行過程所傳送的封包，寫下Client與Server之間傳送的所有封包
 
             請問 Server 所開的 Port number 為？
@@ -11,6 +12,7 @@
             那些封包為 Server 送訊息給 Client 及 Client 回應收到訊息的封包?
             那些封包為 TCP 連線結束的封包？
 ## Unit 2-Stream and Client Server Model
+
       撰寫一個 Client 及 Server 程式
 
             Server 執行後會等待 Client 傳來訊息
