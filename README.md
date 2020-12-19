@@ -1,5 +1,7 @@
 # Junior_NetWorking
 
+
+
 ## Unit 1-Introduction
    Wireshark補捉SimpleServer.class / SimpleClient.class執行過程所傳送的封包，寫下Client與Server之間傳送的所有封包
 
@@ -38,3 +40,15 @@
             雙方重覆執行動作(3)直到收到的數值為 0
             當收到 0 這一個數的一方結束連線
             Server/Client 需印出過程中所收到整數的值
+
+## Unit 5 - UDP
+
+   ### week1
+      Wireshark 封包補捉軟體，補捉 UDPClient1 / UDPServer1 這一個範例的執行過程所傳送的封包。寫下 Client 與 Server 之間傳送的所有封包
+
+               是否有連線建立的封包?
+               那些封包為 Client 送訊息給 Server的封包
+               那些封包為 Server 送訊息給 Client的封包
+               是否有連線結束的封包
+            
+            
