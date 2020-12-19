@@ -123,3 +123,8 @@
       
                程式執行時 BS 會扮演TCP Client 的角色，從BR 中接收訊息
                BS 同時建立另一 multicast group，將從 BR 所接收到的訊息送到這一 multicast group，如此 multicast client C 加入這一 multicast 後就可以收到從 S 送出的訊息。
+
+## Unit 10-Network Programming Using Python
+   請用 Python 改寫 Lab 8 的作業。
+
+## Unit11-Network Applications
