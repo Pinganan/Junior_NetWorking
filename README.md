@@ -47,9 +47,14 @@
    
    Wireshark 封包補捉軟體，補捉 UDPClient1 / UDPServer1 這一個範例的執行過程所傳送的封包。寫下 Client 與 Server 之間傳送的所有封包
 
-               是否有連線建立的封包?
-               那些封包為 Client 送訊息給 Server的封包
-               那些封包為 Server 送訊息給 Client的封包
-               是否有連線結束的封包
+            是否有連線建立的封包?
+            那些封包為 Client 送訊息給 Server的封包
+            那些封包為 Server 送訊息給 Client的封包
+            是否有連線結束的封包
+   寫一個 UDP Server 接收 Client 傳來的訊息，Client 將會傳來一個整數的訊息，當 Server 收到這一個整數後印出 Client 的 IP/port 及收到的值，並將該整數值減一回傳給 Client。接著 Server 繼續等待下一個訊息
+   
+            Client 從命令列輸入一個大於0 的整數 n 並將這一個整數傳給 Server 發起訊息傳送的動作並設定一個 timeout 時間 0.01 second；
+            Client 在 timeout 後如果沒有收到 Server 回傳的訊息，將傳送值重設為 n 再傳給 Server;
+            Client 在 timeout 前收到 Server 回傳的值，印出該值，如果該值為0 則結束 Client 程式，否則直接將該值再傳送給 Server。
             
             
