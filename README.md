@@ -64,6 +64,7 @@
 ## Unit 6-Remote Method Invocation
    
    ### week1 & week2
+   
    這一份作業請大家以 Java RMI 撰寫一個討論區。這一個討論區的運作分為 Client 端與 Server 端程式，其主要功能如下：
 
       - 使用者註冊：每一個使用者要新增討論主題或回覆前皆需先申請一帳號，所有的討論主題及回覆內容都會顯示使用者名稱。
