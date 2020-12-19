@@ -1,7 +1,8 @@
 # Junior_NetWorking
 
 ### U1
-Wireshark封包補捉軟體，補捉 SimpleServer.class / SimpleClient.class 這一個範例執行過程所傳送的封包，並寫下 Client 與 Server 之間傳送的所有封包 (請以 sequence number 來標示這些封包)：
+Wireshark補捉SimpleServer.class / SimpleClient.class執行過程所傳送的封包，寫下Client與Server之間傳送的所有封包
+
 (1)   請問 Server 所開的 Port number 為？
 
 (2)   請問 Client 所使用的 Port number 為？
