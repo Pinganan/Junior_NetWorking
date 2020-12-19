@@ -63,7 +63,7 @@
             
 ## Unit 6-Remote Method Invocation
    
-   ### week1
+   ### week1 & week2
    
    - 這一份作業請大家以 Java RMI 撰寫一個討論區。這一個討論區的運作分為 Client 端與 Server 端程式，其主要功能如下：
 
@@ -83,4 +83,4 @@
                   允許多個 Client 同時存取 Server 端的資訊，Server 程式必須處理臨界區間 (Critical Section) 的問題
                   Server 端接收到討論主題或回覆時需同時儲存日期及時間
                   請自行定義一個 Error 回傳值，當所要求的資訊不存在時回傳 Error
-                  你的程式請分成 Interface, RMI Service Implementation, Server Program 與 Client Program 等四個檔案，並將這四個檔案以 ZIP 壓縮後上傳 iLearn (請以學號為檔名)
+                  你的程式請分成 Interface, RMI Service Implementation, Server Program 與 Client Program 等四個檔案
